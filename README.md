@@ -1,5 +1,5 @@
 # photo_gallery
-https://memo.takuma.page/index.php
+https://photo.takuma.page/
 
 ## 目的
 - 今までの活動がわかる形で保存
