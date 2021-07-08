@@ -72,15 +72,14 @@ p {
   margin: 0;
 }
 
-.outer{
+.outer {
   text-align: center;
 }
 
-.inner{
+.inner {
   display: inline-block;
   text-align: center;
 }
-
 
 @media (max-width: 800px) {
   main {
