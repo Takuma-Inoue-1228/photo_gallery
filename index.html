@@ -4,14 +4,29 @@
     <title>Takuma|Gallery</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <script src="/hes-gallery.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/hes-gallery.css">
+    <script src="/hes-gallery/hes-gallery.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" media="all" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/hes-gallery/hes-gallery.css">
 </head>
 <body class="elo">
-    <header>
-        <h1>Takuma</h1>
-    </header>
+    <header class="header ">
+        <div class="header-inner">
+          <h1 class="header-logo">
+            <a href=".">Gallery</a>
+          </h1>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item"><a href="#profile">Profile</a></li>
+              <li class="header-nav-item"><a href="#products">Products</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     <!-- gallery -->
     <main>
         <div class="outer">
@@ -103,6 +118,14 @@
         </div>
         <!-- gallery -->
     </main>
+    
+    <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+
+    <footer class="footer">
+        <div class="copyright">&copy;TAKUMA INOUE</div>
+      </footer>
     <script>
         HesGallery.setOptions({
             disableScrolling: true,
@@ -112,5 +135,7 @@
             wrapAround: true
         });
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
