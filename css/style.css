@@ -131,11 +131,8 @@ main {
 h2 {
   margin-top: 50px;
   margin-bottom: 5px;
-  font-weight: normal;
-  font-family: 'HanziPen SC','Hannotate SC','Wawati SC',fantasy;
-  /* font-variant: small-caps; */
+  font-weight: lighter;
   text-align: center;
-  /* color: #481212; */
 }
 
 p {
