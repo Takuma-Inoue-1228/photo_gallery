@@ -1,5 +1,5 @@
 # photo_gallery
-https://photo.takuma.page/
+http://gallery.takuma-inoue.com/
 
 ## 目的
 - 今までの活動がわかる形で保存
